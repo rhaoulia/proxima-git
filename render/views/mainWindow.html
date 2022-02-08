@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+
+    <title>Proxima</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        
+    <link rel="stylesheet" type="text/css" href="../css/carousel.css">
+    <link rel="stylesheet" type="text/css" href="../css/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="../css/titlebar.css">
+
+    <style>
+ 
+    </style>
+</head>
+
+<body>
+    <!-- Titlebar -->
+    <h6>
+        <nav class="fixed-top">
+            <div id="title-bar">
+                <div id="title">Proxima App</div>
+                <div id="title-bar-btns">
+                    <button id="min-btn">-</button>
+                    <button id="max-btn">□</button>
+                    <button id="close-btn">x</button>
+                </div>
+            </div>
+        </nav>
+    </h6>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="mainWindow.html">Proxima</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Mein Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="watchlist.html">Meine Liste</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings.html">Einstellungen</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel -->
+    <div class="container text-center my-3">
+        <h2 class="font-weight-light">Aktuelle Filme</h2>
+        <div class="row mx-auto my-auto justify-content-center">
+            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="../img/frame1.jpg" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="../img/frame2.jpg" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="../img/frame3.jpg" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="../img/frame2.jpg" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 4</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="../img/frame3.jpg" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 5</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="../img/frame1.jpg" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 6</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Thumbnails -->
+
+
+
+
+
+    <style>
+
+        .image-gallery {
+            display: block;
+
+            font-size: 0;
+            position: relative;
+            width: 100%;
+            height: auto;
+            max-width: 1000px !important;
+
+            margin: 0 auto;
+        }
+
+
+
+        .image-gallery .image-banner {
+            position: relative;
+            display: inline-block;
+            width: calc(25% - 20px);
+            margin: 10px;
+
+            cursor: pointer;
+        }
+
+
+
+
+
+    </style>
+
+
+    <div class="image-gallery">
+        <a class="image-banner" href="#"><img src="../img/frame2.jpg" class="img-thumbnail" alt="Cinque Terre"></a>
+        <a class="image-banner" href="#"><img src="../img/frame2.jpg" class="img-thumbnail" alt="Cinque Terre"></a>
+        <a class="image-banner" href="#"><img src="../img/frame2.jpg" class="img-thumbnail" alt="Cinque Terre"></a>
+        <a class="image-banner" href="#"><img src="../img/frame2.jpg" class="img-thumbnail" alt="Cinque Terre"></a>
+
+        <a class="image-banner" href="#"><img src="../img/frame2.jpg" class="img-thumbnail" alt="Cinque Terre"></a>
+        <a class="image-banner" href="#"><img src="../img/frame2.jpg" class="img-thumbnail" alt="Cinque Terre"></a>
+        <a class="image-banner" href="#"><img src="../img/frame2.jpg" class="img-thumbnail" alt="Cinque Terre"></a>
+        <a class="image-banner" href="#"><img src="../img/frame2.jpg" class="img-thumbnail" alt="Cinque Terre"></a>
+    </div>
+    <script src="../js/carousel.js"></script>
+    <script src="../js/btn-function.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

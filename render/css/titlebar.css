@@ -1,0 +1,36 @@
+        body {
+        padding: 0px;
+        margin: 0px; 
+       }
+       
+       #title-bar {
+          
+        -webkit-app-region: drag;
+        height: 24px; 
+        background-color: rgb(11, 4, 14);
+        padding: none;
+        position:relative;
+        margin: 0px; 
+       }
+       #navbar{
+        left: 100px;
+         top: 150px;
+       }
+       #title {
+        position: fixed;
+        color:gray;
+        top: 0px;
+        left: 6px; 
+       }
+       
+       #title-bar-btns {
+        -webkit-app-region: no-drag;
+        color:black;
+        position: fixed;
+        top: 0px;
+        right: 6px;
+       }
+
+
+
+      
